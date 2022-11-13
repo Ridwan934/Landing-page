@@ -1,0 +1,189 @@
+body, ul, h1, h2, a
+{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul li {
+    list-style: none;
+}
+.button {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+}
+.container {
+    width: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+    margin: 0 auto;
+}
+.col
+{
+    margin: 0 12px;
+}
+.col-6
+{
+    width: calc(50%);
+}
+.col-4
+{
+    width: calc(30% - 24px);
+}
+
+/* Navbar */
+#navbar {
+    background-color: antiquewhite;
+}
+#navbar .container {
+    justify-content: space-between;
+}
+#navbar .container .Menu {
+    display: flex;
+    align-items: center;
+}
+#navbar .container ul {
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+/* Hero */
+#hero {
+    background-color: antiquewhite;
+    height: 520px;
+    overflow: hidden;
+}
+#hero .container {
+    height: 100%;
+    /* justify-content: space-between; */
+}
+#hero .app {
+    display: flex;
+}
+
+#hero .app img {
+    height: 50px;
+}
+#hero .app .play {
+    border-radius: 8px;
+}
+#hero .gambar img {
+    width: 100%;
+    position: relative;
+    top: 250px;
+}
+#new .container .teks h2
+{
+    
+    text-align: left;
+    
+}
+#new .container .product 
+{
+    display: flex;
+    justify-content: space-between;
+}
+#new .container .product .img1 img
+{
+    background-color: gray;
+}
+#new .container .product .img1 .buy
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#new .container .product .img1 .buy .nama h3
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+#new .container .product .img1 .buy .arrow a img
+{
+    width: 15px;
+    height: 15px;
+}
+
+#new .container .product .img2 img
+{
+    background-color: blue;
+
+}
+#new .container .product .img2 .buy
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#new .container .product .img2 .buy .arrow a img
+{
+    width: 15px;
+    height: 15px;
+}
+#new .container .product .img3 img
+{
+    background-color: orange;
+}
+#new .container .product .img3 .buy .arrow a img
+{
+    width: 15px;
+    height: 15px;
+}
+#new .container .product .img3 .buy
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#sale .container
+{
+    background-color: orange;
+    width: 1080px;
+    justify-content: space-around;
+    align-items: center;
+}
+#sale .container .teks .judul
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#sale .container .teks .judul h2
+{
+    font-weight: bold;
+    font-size: 30px;
+}
+#sale .container .teks .judul p
+{
+    font-size: 15px;
+}
+#sale .container .teks .btn a
+{
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 10px;
+}
+#brand .container .teks .store h3
+{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#brand .container .teks .btn
+{
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 10px;
+}
+#brand .container .images img
+{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+}
